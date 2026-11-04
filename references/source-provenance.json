@@ -1,0 +1,20 @@
+[
+  {
+    "file": "template/src/engine/anim.ts",
+    "sha256": "a385529d6e38f83e56597d4b06d3ee6c944cf671b422020cda934e4dca69fe8b",
+    "origin": "FreshStack / kelano86/what-if-animation",
+    "commit": "8092fb5e825e55456d1d47fec0ebf595cb93cc0d",
+    "source_url": "https://github.com/kelano86/what-if-animation/blob/8092fb5e825e55456d1d47fec0ebf595cb93cc0d/studio/src/engine/anim.ts",
+    "modifications": "Upstream unchanged; only necessary interpolation helpers bundled.",
+    "license": "MIT"
+  },
+  {
+    "file": "template/src/rig/adult.tsx",
+    "sha256": "d4c830cab831abda629434d0f781c1ecc4b85648f4a00ebed9b6808af804cac0",
+    "origin": "Project contributors; adult-rig implementation authored with Claude Opus 5.5",
+    "commit": null,
+    "source_url": null,
+    "modifications": "Team-authored adult rig; removed private scene references and named character presets, neutralized prop glyph, allowed hat=none, added empty-key and coincident-IK guards.",
+    "license": "MIT"
+  }
+]

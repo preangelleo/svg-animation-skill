@@ -1,0 +1,24 @@
+svg-animation-skill 1.0.0
+
+Team-authored skill documentation, portable scripts, neutral demonstration,
+and adult SVG rig: Copyright (c) 2026 Project contributors. MIT; see LICENSE.
+The adult rig was authored with Claude Opus 5.5, then adapted for this package.
+It shares the Pose/poseAt/faceAt interface concept with the upstream project.
+No private scene script, narration, likeness or original test film is included.
+
+Bundled upstream code: template/src/engine/anim.ts
+Copyright (c) 2026 FreshStack. MIT.
+Source: kelano86/what-if-animation
+Commit: 8092fb5e825e55456d1d47fec0ebf595cb93cc0d
+Complete upstream permission notice: references/FreshStack-LICENSE.txt
+Per-file source, SHA256 and modification notes: references/source-provenance.json
+Only the required interpolation helper file is bundled from that upstream.
+
+Remotion, React and other npm dependencies retain their own licenses.
+Remotion is separately licensed; this package's MIT license does not grant
+unrestricted free commercial use of Remotion. Review your eligibility at
+https://www.remotion.dev/docs/license and https://www.remotion.dev/license
+before using its renderer. npm install downloads third-party software.
+No dependency binaries, browser, node_modules, fonts or audio are bundled.
+The package's demo media is generated from this package's neutral scene,
+without an audio track; it is covered by this package's MIT license.

@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SVG scene configuration",
+  "type": "object",
+  "required": [
+    "width",
+    "height",
+    "fps",
+    "duration_frames",
+    "style",
+    "character",
+    "seed",
+    "style_ref"
+  ],
+  "properties": {
+    "width": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "height": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "fps": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "duration_frames": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "style_ref": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "string",
+      "description": "Optional relative path under public/. No traversal or absolute paths."
+    },
+    "style": {
+      "type": "object",
+      "required": [
+        "background",
+        "ground",
+        "accent",
+        "ink",
+        "fontFamily",
+        "lineWidth"
+      ],
+      "properties": {
+        "background": {
+          "type": "string"
+        },
+        "ground": {
+          "type": "string"
+        },
+        "accent": {
+          "type": "string"
+        },
+        "ink": {
+          "type": "string"
+        },
+        "fontFamily": {
+          "type": "string"
+        },
+        "lineWidth": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "character": {
+      "type": "object",
+      "required": [
+        "skin",
+        "skinShade",
+        "ink",
+        "hair",
+        "robe",
+        "robeShade",
+        "trim",
+        "trouser",
+        "wrap",
+        "shoe",
+        "sash",
+        "bracer",
+        "build",
+        "hem",
+        "face",
+        "beard",
+        "hat",
+        "browW"
+      ],
+      "properties": {
+        "skin": {
+          "type": "string"
+        },
+        "skinShade": {
+          "type": "string"
+        },
+        "ink": {
+          "type": "string"
+        },
+        "hair": {
+          "type": "string"
+        },
+        "robe": {
+          "type": "string"
+        },
+        "robeShade": {
+          "type": "string"
+        },
+        "trim": {
+          "type": "string"
+        },
+        "trouser": {
+          "type": "string"
+        },
+        "wrap": {
+          "type": "string"
+        },
+        "shoe": {
+          "type": "string"
+        },
+        "sash": {
+          "type": "string"
+        },
+        "bracer": {
+          "type": "string"
+        },
+        "build": {
+          "type": "number",
+          "minimum": 0
+        },
+        "hem": {
+          "type": "number",
+          "minimum": 0
+        },
+        "browW": {
+          "type": "number",
+          "minimum": 0
+        },
+        "face": {
+          "enum": [
+            "square",
+            "oval",
+            "long"
+          ]
+        },
+        "beard": {
+          "enum": [
+            "full",
+            "mustache",
+            "long",
+            "none"
+          ]
+        },
+        "hat": {
+          "enum": [
+            "none",
+            "knot",
+            "helmet",
+            "cap",
+            "guan"
+          ]
+        }
+      }
+    },
+    "subtitles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "start_frame",
+          "end_frame",
+          "text"
+        ],
+        "properties": {
+          "start_frame": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_frame": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

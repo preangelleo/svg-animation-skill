@@ -1,0 +1,184 @@
+{
+  "author": "community",
+  "category": "media",
+  "certified": false,
+  "credentials": [],
+  "entry": "SKILL.md",
+  "files": [
+    {
+      "bytes": 1077,
+      "path": "LICENSE",
+      "sha256": "f5eee63fb76b6585d82d7c3e7e7c5136331316c3256e72cb6bdf587f234d20de"
+    },
+    {
+      "bytes": 1401,
+      "path": "NOTICE",
+      "sha256": "34f6f53604e9f2d9b2c0ad16df5da1c73cd5c8a0088e23bd7c4c63ee96faec13"
+    },
+    {
+      "bytes": 5694,
+      "path": "README.md",
+      "sha256": "7918577bc0fab9d67fbb43a284a5041eec5aa06f2ef742a4807962783236b6e3"
+    },
+    {
+      "bytes": 3534,
+      "path": "SKILL.md",
+      "sha256": "fb36ec020bb0ebd0c9a8d6633a1c4687978af60d4e426e1dfd64847c0738d7a1"
+    },
+    {
+      "bytes": 47794,
+      "path": "assets/alternate.png",
+      "sha256": "bb37075ae8677d915af9d7e95ae6d8bcb5bc67bd9943016dac1c6f1f066b14b3"
+    },
+    {
+      "bytes": 135983,
+      "path": "assets/demo.mp4",
+      "sha256": "22169ae7ad0badf35c117dca511b7f41d916144f6222dde36b392cb10becc301"
+    },
+    {
+      "bytes": 49978,
+      "path": "assets/keyframe.png",
+      "sha256": "cfa12c50dd067ebce33ff436e6486dd1c5b2e29ce889ceed1ad91476f26ea3c1"
+    },
+    {
+      "bytes": 1067,
+      "path": "references/FreshStack-LICENSE.txt",
+      "sha256": "296951d5c83eb4c9ca1179bbaa9a976bc9c46c5c319757bd45e59713eb35411d"
+    },
+    {
+      "bytes": 3681,
+      "path": "references/scene.schema.json",
+      "sha256": "7168299c0eecb6a75998008b2b4c07e854773d535d46892c076a430149b0d55c"
+    },
+    {
+      "bytes": 989,
+      "path": "references/source-provenance.json",
+      "sha256": "9a66943e4a1544951cc51bf8708c12e956dbae83e8c91247295382824ef803ae"
+    },
+    {
+      "bytes": 2100,
+      "path": "scripts/init.mjs",
+      "sha256": "66e546ed5d12d929cbde6d818e71a137a1b3f1c3d30863fdca0d0ab0302717c6"
+    },
+    {
+      "bytes": 116610,
+      "path": "template/package-lock.integrity-hex.json",
+      "sha256": "193c79ba2fed7f6c0c6eef28ab5edf8618c56fd909052ceba91e4250831ccac5"
+    },
+    {
+      "bytes": 395,
+      "path": "template/package.json",
+      "sha256": "8ae0d32a5bfab618f5a1f3ed32740716b6216c0605eb50a27b6262d7bb2fc821"
+    },
+    {
+      "bytes": 3696,
+      "path": "template/render.mjs",
+      "sha256": "383a33579511f93653f3df6db824a88c9eac84f4a7687a4c3bb9d876f1a84402"
+    },
+    {
+      "bytes": 753,
+      "path": "template/scene-alternate.json",
+      "sha256": "d1ec1bed8df7cda88f4da45145f12d7a50e55a4d01025f63e8e2371875c7941e"
+    },
+    {
+      "bytes": 757,
+      "path": "template/scene.json",
+      "sha256": "336855a4218319b91d2b868bb6148bc188998c67058c2e6e873165c60e6b8210"
+    },
+    {
+      "bytes": 1721,
+      "path": "template/src/Scene.tsx",
+      "sha256": "0025324463536b88130d210af4e008e9e71d812d0a9a7f5f826d418d4804b1e8"
+    },
+    {
+      "bytes": 2183,
+      "path": "template/src/engine/anim.ts",
+      "sha256": "a385529d6e38f83e56597d4b06d3ee6c944cf671b422020cda934e4dca69fe8b"
+    },
+    {
+      "bytes": 498,
+      "path": "template/src/index.tsx",
+      "sha256": "2d42b42b3f5455ed0323f00317139b0dcb9514b4a006a81f96d446e53fde20c7"
+    },
+    {
+      "bytes": 30126,
+      "path": "template/src/rig/adult.tsx",
+      "sha256": "d4c830cab831abda629434d0f781c1ecc4b85648f4a00ebed9b6808af804cac0"
+    }
+  ],
+  "install": {
+    "post_install": [
+      "Read README.md. Initialize a new local scene project and install its pinned Node dependencies. Network is used for npm packages and the renderer browser download; no credentials or paid media account required."
+    ],
+    "skill_dir_name": "svg-animation-skill",
+    "verify": "node scripts/init.mjs --help"
+  },
+  "kind": "skill",
+  "license": "MIT; Remotion dependencies have a separate license",
+  "name": "svg-animation-skill",
+  "permissions": {
+    "exec": true,
+    "network": true,
+    "secrets": [],
+    "tools": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash"
+    ]
+  },
+  "requires": {
+    "accounts": [],
+    "cli": [
+      {
+        "name": "node",
+        "optional": false,
+        "version": ">=20"
+      },
+      {
+        "name": "npm",
+        "optional": false
+      },
+      {
+        "name": "ffprobe",
+        "optional": false
+      }
+    ],
+    "env": [],
+    "harness": [
+      "claude_code",
+      "codex",
+      "opencode"
+    ],
+    "os": [
+      "linux"
+    ],
+    "skills": []
+  },
+  "schema_version": "agentj.catalog/v1",
+  "summary_en": "Create editable SVG character scene clips from a brief and style reference, with a parameterized Remotion starter, original silent demo and frame-based QA contract.",
+  "summary_zh": "把场景brief与整片风格参考转为可编辑SVG人物动作短片；内附参数化Remotion脚手架、原创无声示例及逐帧自检合同。",
+  "tags": [
+    "svg",
+    "animation",
+    "remotion",
+    "scene"
+  ],
+  "title_en": "SVG Scene Animation",
+  "title_zh": "SVG 场景动画",
+  "type": "skill",
+  "upstream": {
+    "commit": "8092fb5e825e55456d1d47fec0ebf595cb93cc0d",
+    "license": "MIT",
+    "modified": true,
+    "name": "what-if-animation",
+    "url": "https://github.com/kelano86/what-if-animation"
+  },
+  "value": "high",
+  "verification": {
+    "date": "2026-11-03",
+    "level": "offline",
+    "note_zh": "Linux本地渲染、帧数/尺寸/PTS及两套风格关键帧；其他OS与harness未实机验证。"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "svg-animation-scene",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs render",
+    "still": "node render.mjs still"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "@remotion/bundler": "4.0.540",
+    "typescript": "5.8.2"
+  }
+}

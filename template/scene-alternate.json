@@ -1,0 +1,38 @@
+{
+  "width": 960,
+  "height": 540,
+  "fps": 30,
+  "duration_frames": 90,
+  "seed": 42,
+  "title": "A small discovery",
+  "style_ref": "demo-night-v1",
+  "style": {
+    "background": "#22243d",
+    "ground": "#48445c",
+    "accent": "#c1d978",
+    "ink": "#f4e6d3",
+    "fontFamily": "serif",
+    "lineWidth": 7
+  },
+  "character": {
+    "skin": "#c99573",
+    "skinShade": "#ad7557",
+    "ink": "#243944",
+    "hair": "#353b45",
+    "robe": "#9b6690",
+    "robeShade": "#316977",
+    "trim": "#e8b9a6",
+    "trouser": "#374c61",
+    "wrap": "#526a76",
+    "shoe": "#283843",
+    "sash": "#c1d978",
+    "bracer": "#468c9a",
+    "build": 1,
+    "hem": 0,
+    "face": "oval",
+    "beard": "none",
+    "hat": "none",
+    "browW": 5
+  },
+  "subtitles": []
+}
