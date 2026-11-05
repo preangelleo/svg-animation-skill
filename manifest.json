@@ -151,7 +151,8 @@
       "opencode"
     ],
     "os": [
-      "linux"
+      "linux",
+      "darwin"
     ],
     "skills": []
   },
@@ -180,5 +181,5 @@
     "level": "offline",
     "note_zh": "Linux本地渲染、帧数/尺寸/PTS及两套风格关键帧；其他OS与harness未实机验证。"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

@@ -1,4 +1,4 @@
-# svg-animation-skill 1.0.0
+# svg-animation-skill 1.0.1
 
 ## 通过 Agent J 广场安装
 
@@ -6,9 +6,9 @@
 agentj plaza install svg-animation-skill
 ```
 
-本仓库与 Agent J 广场包为同一版本 **1.0.0**；仓库 README 仅增加本安装说明，其余文件与广场导出包一致。manifest.json 保留广场包原始清单，其中 README 的校验值对应原始广场 README。
+本仓库与 Agent J 广场包为同一版本 **1.0.1**；1.0.1 仅更新平台元数据，允许 macOS（darwin）；20 个包内容文件沿用 1.0.0，Mac 尚未实机验证。仓库 README 仅更新版本标题并增加本安装说明，其余文件与广场导出包一致。manifest.json 保留广场包原始清单，其中 README 的校验值对应原始广场 README。
 
-广场原生包（candidate.ajpkg）SHA256：`ab65bba3151b63b8d1d4c755ff76042a701498df663bcd6cf2cf2088a027f3dd`。
+广场原生包（candidate.ajpkg）SHA256：`3bbf715ef907f8eca2150acdf95937decd4000501700feb7cb7fdecd8a248d5a`。
 
 A portable SVG/React/Remotion scene skill with adult proportions, planted-foot leg IK, pose/face/walk helpers, and an original silent demonstration: a curious adult approaches and points at a ball. 用可参数化成人SVG骨架制作独立动作片段；默认16:9、静默，无付费生成依赖。
 
